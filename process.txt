@@ -1,0 +1,33 @@
+1. make folder frontend and backend
+2. create frontend using vite for react
+3. in chat-app run [npm init -y] not in backend 
+    3.1 -> create server.js in backend and change the name in package.json ["main": "server.js",]
+
+4. then install 
+    4.1 -> in chat-app run [npm install express dotenv cookie-parser bcryptjs mongoose socket.io jsonwebtoken ]
+
+    why all the above mentioned dependencies
+    1. express -> for backend
+    2. dotenv -> to read environment variable 
+    3. cookie-parser -> to pass the cookie
+    4. bcryptjs -> able to hash password 
+    5. mongoose -> database
+    6. socket.io -> for real time communication
+    7. jsonwebtoken -> to create token
+
+
+5. install nodemon in chat-app and replace the script in package.json [    "server": "nodemon backend/server.js"
+]
+
+ : FRONTEND :
+
+Will use daisyUI for frontend which is tailwind library
+run in frontend : npm i -D daisyui@latest
+
+for - icon we will use react icon 
+
+6. after completing ui part we will use react router dom
+
+7. will use react-hot-toaste for notification pop up
+
+8. cors error : if get this made changes according to vite.config.js file[only for developemnt not for deployment]
